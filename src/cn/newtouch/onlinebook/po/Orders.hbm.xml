@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-3-19 20:05:37 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.newtouch.onlinebook.po.Orders" table="ORDERS">
+        <id name="cusId" type="java.lang.String">
+            <column name="CUSID" />
+        </id>
+        <property name="ordId" type="java.lang.String">
+            <column name="ORDID" />
+        </property>
+        <property name="createDate" type="java.util.Date">
+            <column name="CREATEDATE" />
+        </property>
+        <property name="ordStatus" type="java.lang.String">
+            <column name="ORDSTATUS" />
+        </property>
+    </class>
+</hibernate-mapping>
